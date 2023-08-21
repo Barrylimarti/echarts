@@ -280,7 +280,7 @@ class SankeyView extends ChartView {
                         }
                     },
                     labelDataIndex: node.dataIndex,
-                    defaultText: node.id
+                    defaultText: node.id.substring(0,(node.id.length-1))
                 }
             );
 
